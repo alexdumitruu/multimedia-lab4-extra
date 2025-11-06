@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: all 0.2s ease-in-out;
+    border: none;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.card-img-top {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    flex-grow: 1;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
